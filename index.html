@@ -3,163 +3,310 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nikhil Yadav | Resume</title>
+  <title>Nikhil Yadav | Founder, FaultLabs AI</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&family=Inter:wght@400;500&family=Caveat:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Navigation bar -->
+  <div class="progress"></div>
+
   <header id="navbar">
-    <a href="#home" class="logo">NY<span>.</span></a>
+    <a href="#home" class="logo"><span class="mark">NY</span></a>
+    <a href="#home" class="brand">Nikhil Yadav</a>
     <nav>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#recognition">Recognition</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Hero section -->
+  <!-- HERO: CSS-only sky with drifting clouds and a floating 3D browser window -->
   <section id="home" class="hero">
-    <div class="hero-text">
-      <p class="eyebrow">Hello, I'm</p>
-      <h1>Nikhil Yadav</h1>
-      <p class="tagline">Student &amp; Aspiring Web Developer</p>
-      <p class="intro">I enjoy turning ideas into clean, simple web pages. Currently learning HTML, CSS and the fundamentals of web design.</p>
-      <div class="hero-buttons">
-        <a href="#projects" class="btn btn-primary">View Projects</a>
-        <a href="#contact" class="btn btn-outline">Contact Me</a>
-      </div>
+    <div class="sky" aria-hidden="true">
+      <div class="sun"></div>
+      <div class="cloud c1"></div>
+      <div class="cloud c2"></div>
+      <div class="cloud c3"></div>
+      <div class="cloud c4"></div>
+      <div class="cloud c5"></div>
     </div>
-    <div class="hero-photo">
-      <div class="photo-ring">
-        <span class="initials">NY</span>
+
+    <h1 class="headline">
+      <span class="line"><span class="word d1">I Build Things That</span></span>
+      <span class="line"><span class="word d2">Make The Internet Safer.</span></span>
+    </h1>
+
+    <div class="stage reveal-up d3" aria-hidden="true">
+      <div class="float">
+        <div class="window">
+          <div class="window-bar">
+            <i></i><i></i><i></i>
+            <span class="url">faultlabs.ai / scan</span>
+          </div>
+          <div class="window-body">
+            <div class="avatar">NY</div>
+            <div class="code">
+              <span class="ln w1"></span>
+              <span class="ln w2 indent"></span>
+              <span class="ln w3 indent"></span>
+              <span class="ln w4"></span>
+              <span class="ln w5 indent"></span>
+              <span class="ln w6"></span>
+            </div>
+          </div>
+        </div>
+        <span class="chip ch1">AI Agents</span>
+        <span class="chip ch2">Security</span>
+        <span class="chip ch3">&lt;/&gt;</span>
       </div>
-      <span class="badge">Open to internships</span>
+      <div class="ground-shadow"></div>
     </div>
+
+    <div class="note reveal-up d4">
+      <svg class="note-arrow" viewBox="0 0 120 70" fill="none">
+        <path d="M112 58 C 80 66, 40 54, 14 16" />
+        <path d="M14 16 L 12 32 M14 16 L 28 22" />
+      </svg>
+      <p>That's me,<br>finding one more bug.</p>
+    </div>
+
+    <p class="hero-meta reveal-up d4"><span class="dot"></span> Delhi, India · Open to collaborate</p>
+
+    <p class="hero-bio reveal-up d5">
+      Nikhil Yadav: founder of FaultLabs AI and BBA (DBE) student at IIM Bangalore.
+      I build AI systems, software and websites, and I care about security.
+    </p>
+
+    <a href="#about" class="scroll-btn reveal-up d5" aria-label="Scroll down">↓</a>
   </section>
 
   <main>
-    <!-- About -->
+    <!-- ABOUT -->
     <section id="about" class="section">
-      <h2 class="section-title">About Me</h2>
-      <div class="about-grid">
-        <p>
-          I am a student with a strong interest in web development and design. I like learning by building
-          small projects, and I care about making websites that are easy to read and pleasant to use.
-          Outside of studies I enjoy reading, sports and exploring new technology.
+      <p class="scribble">the short version<svg class="scribble-arrow" viewBox="0 0 90 50" fill="none"><path d="M84 8 C 60 2, 24 10, 10 40" /><path d="M10 40 L 8 26 M10 40 L 22 33" /></svg></p>
+      <div class="label"><span>01</span> About</div>
+      <div class="content">
+        <p class="statement reveal">
+          I'm a builder at heart. I chose to build a company of my own instead of the conventional path, and
+          I'm happiest <em>designing the systems around AI models</em>: agents, routing, evaluation and deployment.
         </p>
-        <ul class="facts">
-          <li><strong>Location</strong> City, India</li>
-          <li><strong>Languages</strong> English, Hindi</li>
-          <li><strong>Interests</strong> Web Design, Tech, Reading</li>
+        <ul class="facts reveal">
+          <li><span>Currently</span>Founder, FaultLabs AI</li>
+          <li><span>Studying</span>BBA (DBE), IIM Bangalore</li>
+          <li><span>Based in</span>Delhi, India</li>
         </ul>
       </div>
     </section>
 
-    <!-- Education (timeline) -->
-    <section id="education" class="section alt">
-      <h2 class="section-title">Education</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <span class="year">2026 – Present</span>
-          <h3>Undergraduate Degree</h3>
-          <p class="place">University</p>
-          <p>Relevant coursework: Web Development, Programming Fundamentals.</p>
-        </div>
-        <div class="timeline-item">
-          <span class="year">2023 – 2025</span>
-          <h3>Class XII</h3>
-          <p class="place">Your School Name</p>
-          <p>Scored XX% in board examinations.</p>
-        </div>
-        <div class="timeline-item">
-          <span class="year">2023</span>
-          <h3>Class X</h3>
-          <p class="place">Your School Name</p>
-          <p>Scored XX% in board examinations.</p>
-        </div>
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="label"><span>02</span> Experience</div>
+      <div class="content">
+        <ul class="rows">
+          <li class="row reveal">
+            <span class="year">Jul 2026 — Now</span>
+            <div>
+              <h3>Founder</h3>
+              <p class="place">FaultLabs AI · Delhi</p>
+            </div>
+            <p class="detail">Autonomous AI agents that find vulnerabilities across codebases, APIs and live applications, validate real attack paths, and help teams fix and retest issues continuously.</p>
+          </li>
+          <li class="row reveal">
+            <span class="year">Sep 2025 — Now</span>
+            <div>
+              <h3>Freelance Software Engineer</h3>
+              <p class="place">Self-employed</p>
+            </div>
+            <p class="detail">Web, app and SaaS development for clients, along with SEO and growth work.</p>
+          </li>
+          <li class="row reveal">
+            <span class="year">Jul — Oct 2026</span>
+            <div>
+              <h3>Apprentice</h3>
+              <p class="place">Microsoft for Startups</p>
+            </div>
+            <p class="detail">Selected for Microsoft's global startup programme and received $50k+ in Azure and PostHog credits.</p>
+          </li>
+        </ul>
       </div>
     </section>
 
-    <!-- Skills -->
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="label"><span>03</span> Education</div>
+      <div class="content">
+        <ul class="rows">
+          <li class="row reveal">
+            <span class="year">2026 — 2029</span>
+            <div>
+              <h3>BBA, Digital Business &amp; Entrepreneurship</h3>
+              <p class="place">Indian Institute of Management Bangalore</p>
+            </div>
+            <p class="detail">A builder-centric programme for people starting things of their own.</p>
+          </li>
+          <li class="row reveal">
+            <span class="year">2024 — 2025</span>
+            <div>
+              <h3>Class XII, PCM</h3>
+              <p class="place">Maheshwari Public School</p>
+            </div>
+            <p class="detail">Physics, Chemistry and Mathematics.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
     <section id="skills" class="section">
-      <h2 class="section-title">Skills</h2>
-      <div class="skills-wrap">
-        <div class="skill-group">
-          <h3>Technical</h3>
-          <ul class="tags">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Flexbox</li>
-            <li>CSS Grid</li>
-            <li>Git &amp; GitHub</li>
-            <li>MS Excel</li>
-          </ul>
-        </div>
-        <div class="skill-group">
-          <h3>Soft Skills</h3>
-          <ul class="tags">
-            <li>Communication</li>
-            <li>Teamwork</li>
-            <li>Problem Solving</li>
-            <li>Time Management</li>
-          </ul>
+      <div class="label"><span>04</span> Skills</div>
+      <div class="content">
+        <div class="skill-cols three reveal">
+          <div>
+            <h3 class="col-title">Build</h3>
+            <ul class="skill-list">
+              <li>Web development</li>
+              <li>iOS &amp; app development</li>
+              <li>SaaS &amp; cloud</li>
+              <li>HTML &amp; CSS</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="col-title">AI &amp; Security</h3>
+            <ul class="skill-list">
+              <li>Model training</li>
+              <li>AI agents</li>
+              <li>Vulnerability research</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="col-title">Growth</h3>
+            <ul class="skill-list">
+              <li>SEO &amp; SEM</li>
+              <li>Email marketing</li>
+              <li>Business analytics</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Projects (cards) -->
-    <section id="projects" class="section alt">
-      <h2 class="section-title">Projects</h2>
-      <div class="cards">
-        <article class="card">
-          <span class="card-tag">HTML · CSS</span>
-          <h3>Personal Resume Website</h3>
-          <p>This website — a responsive one-page resume built using semantic HTML and custom CSS.</p>
-        </article>
-        <article class="card">
-          <span class="card-tag">HTML · CSS</span>
-          <h3>Project Two</h3>
-          <p>Short description of what you built, what you learnt and the tools you used.</p>
-        </article>
-        <article class="card">
-          <span class="card-tag">Excel</span>
-          <h3>Project Three</h3>
-          <p>Short description of another academic or personal project you are proud of.</p>
-        </article>
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>AI Agents <i>✦</i> Security <i>✦</i> Machine Learning <i>✦</i> Web <i>✦</i> SaaS <i>✦</i> Design <i>✦</i> </span>
+        <span>AI Agents <i>✦</i> Security <i>✦</i> Machine Learning <i>✦</i> Web <i>✦</i> SaaS <i>✦</i> Design <i>✦</i> </span>
+      </div>
+    </div>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <p class="scribble">hover a row<svg class="scribble-arrow" viewBox="0 0 90 50" fill="none"><path d="M84 8 C 60 2, 24 10, 10 40" /><path d="M10 40 L 8 26 M10 40 L 22 33" /></svg></p>
+      <div class="label"><span>05</span> Work</div>
+      <div class="content">
+        <ul class="projects">
+          <li class="project reveal" tabindex="0">
+            <div class="project-head">
+              <span class="p-num">01</span>
+              <h3>FaultLabs AI</h3>
+              <span class="p-tag">AI · Security</span>
+              <span class="p-arrow">→</span>
+            </div>
+            <div class="project-body">
+              <p>An AI security startup using autonomous agents to find and validate vulnerabilities. Pre-incubated at SSCBS Innovation &amp; Incubation Foundation (SIIF).</p>
+            </div>
+          </li>
+          <li class="project reveal" tabindex="0">
+            <div class="project-head">
+              <span class="p-num">02</span>
+              <h3><a href="https://huggingface.co/rororova/poemformer" target="_blank">Poemformer</a></h3>
+              <span class="p-tag">Machine Learning</span>
+              <span class="p-arrow">→</span>
+            </div>
+            <div class="project-body">
+              <p>A poetry language model built from scratch at 18 and trained on 130M tokens, with a custom rhyme-memory module. It gets within 0.3 loss of GPT-2 on 1/300th of the data.</p>
+            </div>
+          </li>
+          <li class="project reveal" tabindex="0">
+            <div class="project-head">
+              <span class="p-num">03</span>
+              <h3>Admission Portal Vulnerability</h3>
+              <span class="p-tag">Security Research</span>
+              <span class="p-arrow">→</span>
+            </div>
+            <div class="project-body">
+              <p>Identified, with a teammate, a vulnerability in a college admission portal that exposed the sensitive data of 5,700+ students.</p>
+            </div>
+          </li>
+          <li class="project reveal" tabindex="0">
+            <div class="project-head">
+              <span class="p-num">04</span>
+              <h3>This Website</h3>
+              <span class="p-tag">HTML · CSS</span>
+              <span class="p-arrow">→</span>
+            </div>
+            <div class="project-body">
+              <p>A one-page resume built with semantic HTML and hand-written CSS: drifting clouds, a floating 3D window and scroll-driven animations, without JavaScript.</p>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="section">
-      <h2 class="section-title">Contact</h2>
-      <p class="contact-lead">I'm always happy to connect. Reach out through any of the links below.</p>
-      <div class="contact-links">
-        <a href="mailto:nikhilthakuraan@gmail.com" class="contact-item">
-          <span class="label">Email</span>
-          <span class="value">nikhilthakuraan@gmail.com</span>
-        </a>
-        <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="contact-item">
-          <span class="label">LinkedIn</span>
-          <span class="value">linkedin.com/in/your-profile</span>
-        </a>
-        <a href="https://github.com/Rororova" target="_blank" class="contact-item">
-          <span class="label">GitHub</span>
-          <span class="value">github.com/Rororova</span>
-        </a>
+    <!-- RECOGNITION -->
+    <section id="recognition" class="section">
+      <p class="scribble">out of 450 teams!<svg class="scribble-arrow" viewBox="0 0 90 50" fill="none"><path d="M84 8 C 60 2, 24 10, 10 40" /><path d="M10 40 L 8 26 M10 40 L 22 33" /></svg></p>
+      <div class="label"><span>06</span> Recognition</div>
+      <div class="content">
+        <ul class="awards">
+          <li class="award reveal">
+            <span class="award-big">#1</span>
+            <div>
+              <h3>National Winner, Policy &amp; Regulation Track</h3>
+              <p>IIMB CDPG National Student Case Competition 2026. Captained Team Pungibunch from 450 teams and 2,250 students to win the track at the national finals.</p>
+            </div>
+          </li>
+          <li class="award reveal">
+            <span class="award-big">SIIF</span>
+            <div>
+              <h3>Pre-incubation for FaultLabs AI</h3>
+              <p>SSCBS Innovation &amp; Incubation Foundation, building toward a safer internet.</p>
+            </div>
+          </li>
+          <li class="award reveal">
+            <span class="award-big">$50k+</span>
+            <div>
+              <h3>Microsoft for Startups</h3>
+              <p>Selected for the global startup programme with Azure and PostHog credits.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="label"><span>07</span> Contact</div>
+      <div class="content">
+        <h2 class="contact-title reveal">Let's <em>build.</em></h2>
+        <a href="mailto:nikhilthakuraan@gmail.com" class="email reveal">nikhilthakuraan@gmail.com</a>
+        <ul class="socials reveal">
+          <li><a href="https://www.linkedin.com/in/nikhil-thakuraan/" target="_blank">LinkedIn <span>↗</span></a></li>
+          <li><a href="https://github.com/Rororova" target="_blank">GitHub <span>↗</span></a></li>
+          <li><a href="https://huggingface.co/rororova" target="_blank">Hugging Face <span>↗</span></a></li>
+        </ul>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 Nikhil Yadav · Built with HTML &amp; CSS</p>
+    <p>© 2026 Nikhil Yadav</p>
+    <p>Built with HTML &amp; CSS</p>
     <a href="#home" class="back-to-top">Back to top ↑</a>
   </footer>
 
